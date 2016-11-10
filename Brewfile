@@ -31,6 +31,7 @@ brew 'tree'
 brew 'node'
 brew 'trash'
 brew 'wget'
+brew 'asciinema' # https://asciinema.org/
 
 # PHP
 brew 'php70', args: ['with-debug', 'without-apache']
