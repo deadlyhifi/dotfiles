@@ -22,3 +22,8 @@ Text: Change Font -> Fira Code 14
 Figure out: https://deadlyhifi.com/2016/02/super-duper-power-key-change-capslock-you-dont-use-it-anyway/ for Sierra
 
 When done with copying files and set up, [Inherit BackBlaze backup state](https://help.backblaze.com/hc/en-us/articles/217666358-Inherit-Backup-State).
+
+## macOS
+
+To allow column select text in Atom.
+`Preferences > Keyboard > Mission Control: uncheck Application Windows`
