@@ -42,6 +42,11 @@ ln -s ~/Dropbox/AppSync/_Symlinks/dotAtom ~/.atom
 rm ~/.gitignore_global
 ln -s ~/Dropbox/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
 
+rm -r ~/.hyper.js
+ln -s ~/Dropbox/AppSync/_Symlinks/dotHyper.js
+rm -r ~/.hyper_plugin
+ln -s ~/Dropbox/AppSync/_Symlinks/dotHyper_plugins
+
 rm -r ~/.homestead
 ln -s ~/Dropbox/AppSync/_Symlinks/dotHomestead ~/.homestead
 
