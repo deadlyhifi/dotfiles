@@ -28,27 +28,32 @@ mv composer.phar /usr/local/bin/composer
 # /usr/local/bin/composer global require laravel/installer laravel/lumen-installer tightenco/jigsaw
 
 # Create symlinks
-ln -s ~/Dropbox/Code ~/Code
-
 rm ~/.zshrc
-ln -s ~/Dropbox/AppSync/_Symlinks/Shell/zshrc ~/.zshrc
+ln -s ~/Google\ Drive/AppSync/_Symlinks/Shell/zshrc ~/.zshrc
 
 rm -r .oh-my-zsh
-ln -s ~/Dropbox/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
 
 rm -r ~/.atom
-ln -s ~/Dropbox/AppSync/_Symlinks/dotAtom ~/.atom
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotAtom ~/.atom
 
 rm ~/.gitignore_global
-ln -s ~/Dropbox/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
+ln -s ~/Google\ Drive/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
 
 rm -r ~/.hyper.js
-ln -s ~/Dropbox/AppSync/_Symlinks/dotHyper.js
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper.js
 rm -r ~/.hyper_plugin
-ln -s ~/Dropbox/AppSync/_Symlinks/dotHyper_plugins
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper_plugins
 
 rm -r ~/.homestead
-ln -s ~/Dropbox/AppSync/_Symlinks/dotHomestead ~/.homestead
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHomestead ~/.homestead
+
+rm -r ~/.vim
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotVim ~/.vim
+rm -r ~/.viminfo
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotViminfo ~/.viminfo
+rm -r ~/.vimrc
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotVimrc ~/.vimrc
 
 # Set OS X preferences
 # We will run this last because this will reload the shell
