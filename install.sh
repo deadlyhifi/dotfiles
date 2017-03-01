@@ -28,26 +28,32 @@ mv composer.phar /usr/local/bin/composer
 # /usr/local/bin/composer global require laravel/installer laravel/lumen-installer tightenco/jigsaw
 
 # Create symlinks
+# Shell
 rm ~/.zshrc
 ln -s ~/Google\ Drive/AppSync/_Symlinks/Shell/zshrc ~/.zshrc
-
 rm -r .oh-my-zsh
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
 
+# Atom
 rm -r ~/.atom
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotAtom ~/.atom
 
+# Git
 rm ~/.gitignore_global
 ln -s ~/Google\ Drive/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
 
+# Hyper.js
 rm -r ~/.hyper.js
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper.js
 rm -r ~/.hyper_plugin
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper_plugins
 
-rm -r ~/.homestead
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHomestead ~/.homestead
+# Homestead
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHomestead/aliases ~/Code/__Homestead/Homestead.yaml
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHomestead/aliases ~/Code/__Homestead/after.sh
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHomestead/aliases ~/Code/__Homestead/aliases
 
+# Vim
 rm -r ~/.vim
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotVim ~/.vim
 rm -r ~/.viminfo
