@@ -34,10 +34,6 @@ ln -s ~/Google\ Drive/AppSync/_Symlinks/Shell/zshrc ~/.zshrc
 rm -r .oh-my-zsh
 ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
 
-# Atom
-rm -r ~/.atom
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotAtom ~/.atom
-
 # Git
 rm ~/.gitignore_global
 ln -s ~/Google\ Drive/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
