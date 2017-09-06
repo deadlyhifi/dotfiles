@@ -4,7 +4,7 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
+tap 'homebrew/homebrew-php'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
@@ -27,23 +27,19 @@ brew 'homebrew/dupes/grep'
 
 # Install Binaries
 brew 'git'
-brew 'tree'
 brew 'node'
 brew 'trash'
 brew 'wget'
-brew 'asciinema' # https://asciinema.org/
 
 # PHP
-brew 'php70', args: ['with-debug', 'without-apache']
+brew 'php71', args: ['with-debug', 'without-apache']
 
 # Apps
 cask '1password'
 cask 'alfred'
-cask 'atom'
 cask 'backblaze'
 cask 'bartender'
 cask 'cakebrew'
-cask 'coderunner'
 cask 'docker'
 cask 'fluid'
 cask 'franz'
@@ -54,14 +50,12 @@ cask 'hyper'
 cask 'keepingyouawake'
 cask 'mailplane'
 cask 'paw'
-cask 'plex-media-server'
-cask 'sketch'
 cask 'querious'
 cask 'transmission'
 cask 'transmit'
 cask 'virtualbox'
 cask 'vagrant'
-cask 'vagrant-manager'
+cask 'visual-studio-code'
 
 # Quicklook
 cask 'qlcolorcode'
