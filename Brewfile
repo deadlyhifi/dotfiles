@@ -4,7 +4,7 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
+tap 'homebrew/homebrew-php'
 
 # Make sure apps get installed in system Applications dir
 cask_args appdir: '/Applications'
@@ -27,13 +27,12 @@ brew 'homebrew/dupes/grep'
 
 # Install Binaries
 brew 'git'
-brew 'tree'
 brew 'node'
 brew 'trash'
 brew 'wget'
 
 # PHP
-brew 'php70', args: ['with-debug', 'without-apache']
+brew 'php71', args: ['with-debug', 'without-apache']
 
 # Apps
 cask '1password'
@@ -46,6 +45,7 @@ cask 'franz'
 cask 'github-desktop'
 cask 'google-chrome'
 cask 'handbrake'
+cask 'hazel'
 cask 'hyper'
 cask 'keepingyouawake'
 cask 'postman'
