@@ -21,28 +21,28 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 chsh -s $(which zsh)
 
 # Install Composer
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
+# curl -sS https://getcomposer.org/installer | php
+# mv composer.phar /usr/local/bin/composer
 
 # Install global Composer packages
 # /usr/local/bin/composer global require laravel/installer laravel/lumen-installer tightenco/jigsaw
 
 # Create symlinks
-# Shell
-rm ~/.zshrc
-ln -s ~/Google\ Drive/AppSync/_Symlinks/Shell/zshrc ~/.zshrc
-rm -r .oh-my-zsh
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
-
 # Git
 rm ~/.gitignore_global
 ln -s ~/Google\ Drive/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
 
+# Shell
+rm ~/.zshrc
+ln -s ~/Google\ Drive/AppSync/_Symlinks/shell/dotZshrc ~/.zshrc
+rm -r .oh-my-zsh
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh .oh-my-zsh
+
 # Hyper.js
 rm -r ~/.hyper.js
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper.js
-rm -r ~/.hyper_plugin
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper_plugins
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper.js ~/.hyper.js
+rm -r ~/.hyper_plugins
+ln -s ~/Google\ Drive/AppSync/_Symlinks/dotHyper_plugins ~/.hyper_plugins
 
 # Vim
 rm -r ~/.vim

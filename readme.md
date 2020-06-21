@@ -14,7 +14,7 @@ Follow these install instructions to setup a new Mac.
 2. Install Xcode from the App Store, open it and accept the license agreement
 3. Install OS X Command Line Tools by running `xcode-select --install`
 4. Copy public and private SSH keys to `~/.ssh` and make sure they're set to `600`
-5. Clone this package, navigate to it, and run `install.sh` to start the installation
+5. Clone this package, navigate to it, and run `sh install.sh` to start the installation
 6. [Install the remaining apps and do some manual set up](./manual.md)
 7. Restart your computer to finalise the process
 
