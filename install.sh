@@ -30,7 +30,7 @@ chsh -s $(which zsh)
 # Create symlinks
 # Git
 rm ~/.gitignore_global
-ln -s ~/Google\ Drive/AppSync/_Symlinks/git/gitignore_global ~/.gitignore_global
+ln -s ~/Google\ Drive/AppSync/_Symlinks/git/dotGitignore_global ~/.gitignore_global
 
 # Shell
 rm ~/.zshrc
