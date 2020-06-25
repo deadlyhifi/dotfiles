@@ -31,6 +31,7 @@ chsh -s $(which zsh)
 # Git
 rm ~/.gitignore_global
 ln -s ~/Google\ Drive/AppSync/_Symlinks/git/dotGitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 
 # Shell
 rm ~/.zshrc
