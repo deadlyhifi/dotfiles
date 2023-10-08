@@ -8,7 +8,7 @@ git config --global core.excludesfile ~/.gitignore_global
 rm ~/.zshrc
 ln -s ~/Library/CloudStorage/GoogleDrive-tomdebruin@gmail.com/My\ Drive/AppSync/_Symlinks/shell/dotZshrc ~/.zshrc
 rm -r ~/.oh-my-zsh
-ln -s ~/Google\ Drive/AppSync/_Symlinks/dotOh-my-zsh ~/.oh-my-zsh
+ln -s ~/Library/CloudStorage/GoogleDrive-tomdebruin@gmail.com/My\ Drive/AppSync/_Symlinks/dotOh-my-zsh ~/.oh-my-zsh
 
 # Hyper.js
 rm -r ~/.hyper.js
